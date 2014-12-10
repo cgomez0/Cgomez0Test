@@ -5,7 +5,7 @@ import java.util.Random;
 public class GatewayUtils {
 	public static String generateAuthId()
 	{
-		String authId = "";
+		String authId = "mock";
 		
 		Random generator = new Random(System.currentTimeMillis());
 		
